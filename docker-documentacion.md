@@ -7,6 +7,9 @@ docker pull docker/getting-started
 ## Contenedor de DBMS MariaDB
 docker pull mariadb
 
+docker run--nameServerMariaDBG2 -e MARIADB_ROOT_PASSWORD=123456 \ 
+-d -p 3345:3306  e0236
+
 
 
 | Comando | Descripcion |
