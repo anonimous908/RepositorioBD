@@ -11,17 +11,17 @@ numeroInt INT,
 numeroExt INT
 );
 INSERT INTO alumno
-VALUES (1,'	David','Borges',NULL,'2007-07-17','Tula de allende ' ,NULL,123);
+VALUES (1,'	David','Borges',NULL,'2007-07-17','Tula de Allende' ,NULL,123);
 
 
 INSERT INTO alumno
-VALUES (2,'Sinn','peres','islas','2007-07-17','Tula de allende ' ,NULL,null);
+VALUES (2,'Sinn','peres','islas','2007-07-17','Tula de Allende' ,NULL,null);
 
 INSERT INTO alumno (idAlumno,nombre,apellidoPaterno,fechanaci,calle)
-VALUES (3,'Cristoer','Garcia','2007-07-17','Conocida' );
+VALUES (3,'Cristofer','Garcia','2007-07-17','Conocida');
 SELECT * FROM alumno;
 
---Razon de cordinalidad
+--Razón de cardinalidad
 
 CREATE TABLE categoria2(
 categoriaId INT NOT NULL ,
