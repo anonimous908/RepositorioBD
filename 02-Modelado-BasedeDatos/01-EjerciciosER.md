@@ -42,11 +42,20 @@ especialidad
 - número de cursos
 - nombre del curso
 - creditos
->reglas de negocio
+> Reglas del negocio
 1. un profesor puede impartir varios cursos
 2. un curso solo puede ser impartido por 1 profesor
 3. puede existir un profesor que actualmente no imparta cursos
 4. todo curso debe estar asignado a un profesor
+> Que se debe de realizar 
+
+- Identificar las entidades
+- Identificar los atributos
+- Dibujar las relaciones
+- Dibujar las cardinalidad
+- Dibujar la participación de cada entidad
+
+![Ejercicio2](/img/ER/diagrama2.png)
 
 # Ejercicio 3
 Una escuela administra alumnos y materias 
@@ -58,7 +67,7 @@ Una escuela administra alumnos y materias
 - Clave de la materia
 - nombre de la materia 
 - creditos 
-# reglas del negocio
+> Reglas del negocio
 1. un alumno puede inscribirse en varias materias
 2. una materia puede tener muchos alumnos inscritos
 3. puede existir una materia sin alumnos inscritos
@@ -66,7 +75,14 @@ Una escuela administra alumnos y materias
 5. de cada inscripción se desea almacenar:
  - fecha de inscripción
  - calificación final
- nota: a la relación nombrarla **inscribe**
+> Que se debe de realizar 
+
+- Identificar las entidades
+- Identificar los atributos
+- Dibujar las relaciones
+- Dibujar las cardinalidad
+- Dibujar la participación de cada entidad
+
 ![Ejercicio3](/img/ER/diagrama3.png)
 # Ejercicio 4
 Una empresa dedicada a las ventas al por mayor necesita registrar lo siguiente para los clientes
@@ -77,7 +93,7 @@ Una empresa dedicada a las ventas al por mayor necesita registrar lo siguiente p
 - número del producto
 - nombre
 - precio
-> reglas del negocio
+> Reglas del negocio
 1. Un cliente puede realizar muchos pedidos
 2. Cada pedido pertenece a un solo cliente
 3. Un pedido contiene varios productos
@@ -87,3 +103,72 @@ Una empresa dedicada a las ventas al por mayor necesita registrar lo siguiente p
 7. El detalle del pedido no existe sin pedido
 8. El detalle del pedido no existe sin producto
 9. El detalle almacena la cantidad vendida y el precio
+> Que se debe de realizar 
+
+- Identificar las entidades
+- Identificar los atributos
+- Identificar los atributos compuestos
+- Identificar los atributos multivalor
+- Dibujar las relaciones
+- Dibujar las cardinalidad
+- Dibujar la participación de cada entidad
+
+![Ejercicio4](/img/ER/diagrama4.png)
+
+## Ejercicio 5
+
+Una empresa está organizada en departamentos y necesita registrar la siguiente información:
+
+> De cada **departamento** se almacena:
+- Número único del departamento
+- Nombre único del departamento
+- Fecha de inicio del empleado que administra el departamento
+- Ubicaciones del departamento (puede tener varias)
+
+> De cada **proyecto** se almacena:
+- Número único del proyecto
+- Nombre único del proyecto
+- Ubicación del proyecto
+
+> De cada **empleado** se almacena:
+- Nombre
+- Número de Seguro Social (SSN)
+- Dirección
+- Salario
+- Sexo (género)
+- Fecha de nacimiento
+- Horas semanales trabajadas por proyecto
+- Supervisor directo (otro empleado)
+
+> De cada **dependiente** se almacena:
+- Nombre
+- Sexo
+- Fecha de nacimiento
+- Relación con el empleado
+
+> Reglas del negocio
+1. Un departamento es administrado por un solo empleado
+2. Un empleado puede administrar como máximo un departamento
+3. Un departamento puede tener varias ubicaciones
+4. Un departamento controla varios proyectos
+5. Un proyecto pertenece a un solo departamento
+6. Un empleado está asignado a un solo departamento
+7. Un empleado puede trabajar en varios proyectos
+8. Un proyecto puede tener varios empleados trabajando en él
+9. Un empleado tiene un supervisor directo (otro empleado)
+10. Un empleado puede supervisar a varios empleados
+11. Un empleado puede tener varios dependientes
+12. Un dependiente pertenece a un solo empleado
+
+> Que se debe de realizar 
+
+- Identificar las entidades
+- Identificar los atributos
+- Identificar los atributos multivalor (ubicaciones del departamento)
+- Identificar los atributos compuestos (dirección)
+- Identificar los atributos derivados
+- Dibujar las relaciones
+- Dibujar las cardinalidad
+- Dibujar la participación de cada entidad
+
+![Ejercicio5](/img/ER/diagrama5.png)
