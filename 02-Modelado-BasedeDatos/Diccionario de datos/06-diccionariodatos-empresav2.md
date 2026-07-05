@@ -154,4 +154,4 @@ Esta versión optimizada administra los recursos de la empresa utilizando identi
 
 ## 9. Diagrama Relacional
 
-![Diagrama Empresa V2](/img/Relacional/Relacional5.jpeg)
+![Diagrama Empresa V2](/img/Relacional/Relacional7.png)

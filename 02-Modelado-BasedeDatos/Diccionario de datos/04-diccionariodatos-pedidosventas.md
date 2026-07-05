@@ -130,4 +130,4 @@ Permite controlar el registro de clientes, el seguimiento de sus pedidos, el cat
 
 ## 9. Diagrama Relacional
 
-![Diagrama Relacional](/img/Relacional/Relacional4.jpeg)
+![Diagrama Relacional](/img/Relacional/Relacional4.png)

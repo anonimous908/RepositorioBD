@@ -100,4 +100,4 @@ Permite controlar la información personal de los pacientes y la gestión, apert
 
 ## 9. Diagrama Relacional
 
-![Diagrama Relacional](/img/Relacional/Relacional1.jpeg)
+![Diagrama Relacional](/img/Relacional/Relacional1.png)

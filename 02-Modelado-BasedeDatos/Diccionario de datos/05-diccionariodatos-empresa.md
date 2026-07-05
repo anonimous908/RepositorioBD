@@ -158,4 +158,4 @@ La base de datos administra el core operativo de una organización:
 
 ## 9. Diagrama Relacional
 
-![Diagrama Relacional](/img/Relacional/Relacional5.jpeg)
+![Diagrama Relacional](/img/Relacional/Relacional6.png)

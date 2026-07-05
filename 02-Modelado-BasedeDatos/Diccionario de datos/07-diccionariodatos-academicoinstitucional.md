@@ -192,4 +192,4 @@ La base de datos administra el flujo académico y operativo de una institución 
 
 ## 8. Diagrama Relacional
 
-![Diagrama Relacional](/img/Relacional/Relacional5.jpeg)
+![Diagrama Relacional](/img/Relacional/Relacional8.png)

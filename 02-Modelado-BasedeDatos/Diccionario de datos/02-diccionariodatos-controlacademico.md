@@ -114,4 +114,4 @@ Permite controlar la oferta de cursos, la asignación y datos personales de los 
 
 ## 9. Diagrama Relacional
 
-![Diagrama Relacional](/img/Relacional/Relacional2.jpeg)
+![Diagrama Relacional](/img/Relacional/Relacional2.png)

@@ -117,4 +117,4 @@ Permite controlar el registro de estudiantes, el catálogo de asignaturas dispon
 
 ## 9. Diagrama Relacional
 
-![Diagrama Relacional](/img/Relacional/Relacional3.jpeg)
+![Diagrama Relacional](/img/Relacional/Relacional3.png)
