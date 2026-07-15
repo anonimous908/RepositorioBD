@@ -120,3 +120,15 @@ CREATE
 ALTER
 DROP
 ...
+
+### ALTER TABLE
+
+Permite modificar la tabla existente 
+
+puede: 
+
+- agregar columnas
+- eliminar columnas
+- modificar columnas
+- agregar restricciones 
+- eliminar restricciones
