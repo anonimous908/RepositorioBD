@@ -7,7 +7,7 @@ DESCRIPCION: DESARROLLAR LÑA CAPACIDADPARA CONSTRUIR CONSULTA BASICAS MMEDIANTE
  USE comercial_db;
  Go
 
-Uso del SELECT *
+-- Uso del SELECT *
 
 Sintaxis:
 
@@ -180,3 +180,56 @@ FROM clientes AS c;
 
 
 -- TODO: DISTINCT CON MAS DE UN CAMPO
+
+
+SELECT 
+    id_cliente,
+    id_empleado
+FROM ventas
+ORDER BY 1 DESC , 2 DESC;
+GO
+
+
+SELECT DISTINCT
+     id_cliente,
+    id_empleado
+FROM ventas
+GO
+
+--limita la cantidad de filas devueltas por una consulta
+select TOP(5)
+id_producto,
+codigo,
+nombre,
+precio
+from productos
+order by precio DESC;
+
+-- top con expresiones calculadas
+
+select 
+codigo,
+nombre,
+precio,
+existencia,
+(precio*existencia) AS valor_inventario
+from productos
+order by precio DESC;
+
+-- top con porcentaje
+-- sql server permite limitar el resultado mediante un porcentaje
+
+select  TOP(10) PERCENT
+codigo,
+nombre,
+precio,
+existencia,
+(precio*existencia) AS valor_inventario
+from productos
+order by precio DESC;
+
+-- conbinar distinct con el top
+
+select DISTINCT TOP(10)
+    descuento
+from detalle_ventas
