@@ -1,1 +1,7 @@
-/data/ 
+# Base de datos y backups pesados
+data/
+*.bak
+
+# Workflows / Agents
+.agents/workflows/estudio.md
+estudio.md
