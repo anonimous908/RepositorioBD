@@ -27,10 +27,6 @@ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" \
 d01cc
 
 
-
-
-
-
 | Comando | Descripcion |
 | :--- | :--- |
 | docker pull nombre_imagen | **Descarga imagen de Docker Hub** [Docker Hub](https://hub.docker.com/) |
